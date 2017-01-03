@@ -1,2 +1,55 @@
+$navbar-default-bg: #DCD0C0;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+#logo {
+    float:left;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: asset-url('typewriterbackground.jpg');
+    background-size: cover;
+    height: 350px;
+}
+.jumbotron h1 {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.jumbotron .btn-primary {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    border-radius: 0px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.jumbotron .btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar li {
+    font-size: 20px;
+}
